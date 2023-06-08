@@ -1,4 +1,9 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* ----------------------------------------header top-----------------------------------------------------*/
 
 .headertop {
@@ -338,7 +343,7 @@ li {
 }
 /* ----------------------------------fixed------------------------------ */
 .fixed {
-    width: 200px;
+    width: 13%;
     position: fixed;
     right: 0;
     bottom: 15%;
