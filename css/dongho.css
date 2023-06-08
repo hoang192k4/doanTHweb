@@ -1,0 +1,352 @@
+
+/* ----------------------------------------header top-----------------------------------------------------*/
+
+.headertop {
+    background-color: rgb(231, 232, 233);
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+/* ----------------------------------------header center-----------------------------------------------------*/
+.header_center {
+    background-color: rgb(47, 104, 193);
+}
+
+.header_center ul li img {
+    width: 200px;
+    height: 60px;
+}
+
+.header_center ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.header_center ul li {
+    list-style: none;
+    color: white;
+    font-size: 13px;
+}
+
+.header_center ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.header_center ul li:nth-child(3) input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header_center ul li:nth-child(2) {
+    border: 1px solid rgb(111, 169, 237);
+    border-radius: 3px;
+    padding: 3px 15px;
+    font-size: 10px;
+}
+
+.header_center ul li:nth-child(2) i {
+    padding: 5px;
+}
+
+.header_center ul li:nth-child(2):hover {
+    box-shadow: 0px 1px 1.5px 1.5px rgb(185, 184, 184);
+}
+
+.header_center ul li:nth-child(4):hover {
+    box-shadow: 0px 1px 1.5px 1.5px rgb(185, 184, 184);
+}
+
+.header_center ul li:nth-child(5):hover {
+    box-shadow: 0px 1px 1.5px 1.5px rgb(185, 184, 184);
+}
+
+.header_center ul li:nth-child(3) i {
+    position: absolute;
+    font-size: 22px;
+    line-height: 37px;
+    left: 810px;
+    color: black;
+}
+
+.header_center ul li:nth-child(4) {
+    border: 1px solid rgb(104, 169, 244);
+    border-radius: 3px;
+    padding: 2px 10px;
+    font-size: 13px;
+}
+
+.header_center ul li:nth-child(5) {
+    border: 1px solid rgb(104, 169, 244);
+    border-radius: 3px;
+    padding: 11px 12px;
+    font-size: 13px;
+}
+
+.header_center ul li:nth-child(6):hover a {
+    font-size: 14px;
+    color: white;
+}
+
+.header_center ul li:nth-child(7):hover a {
+    font-size: 14px;
+    color: white
+}
+
+.header_center ul li:nth-child(8):hover a {
+    font-size: 14px;
+    color: white;
+}
+
+.header_center ul li:nth-last-child(2) {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0 10px;
+}
+
+/* ----------------------------------------header bottom-----------------------------------------------------*/
+.header_bottom {
+    background-color: rgb(47, 104, 193);
+}
+
+.header_bottom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.header_bottom ul>li {
+    padding: 15px;
+    list-style: none;
+    font-size: 14px;
+    position: relative;
+}
+
+.header_bottom ul li>a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.header_bottom ul li a i {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.header_bottom ul li:hover>a {
+    font-size: 15px;
+    color: white;
+}
+
+.supmenu-items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.supmenu .supmenuitem {
+    width: 24%;
+    padding: 8px;
+}
+
+.header_bottom ul li .supmenu {
+    position: absolute;
+    top: 100%;
+    cursor: pointer;
+    width: 800px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+
+.header_bottom ul li .supmenu h6 {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.header_bottom ul li:hover .supmenu {
+    display: block;
+}
+
+.supmenuitem p {
+    margin-bottom: 0;
+}
+
+.supmenuitem p>a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s ease;
+    line-height: 30px;
+}
+
+.supmenuitem p>a:hover {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header_bottom ul li .supmenu-tow {
+    position: absolute;
+    top: 100%;
+    cursor: pointer;
+    width: 150px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+
+.supmenu-tow p {
+    margin-bottom: 0;
+}
+
+.supmenu-tow .supmenu-towitem p>a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s ease;
+    line-height: 30px;
+}
+
+.supmenu-tow .supmenu-towitem {
+    padding: 8px;
+}
+
+.header_bottom ul li:hover .supmenu-tow {
+    display: block;
+}
+
+.supmenu-tow p>a:hover {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header_bottom ul li .supmenu-three {
+    position: absolute;
+    top: 100%;
+    cursor: pointer;
+    width: 600px;
+    background-color: white;
+    display: none;
+    left: unset;
+    right: 0;
+    z-index: 10;
+}
+
+.header_bottom ul li .supmenu-three h6 {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.supmenuitems-three {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.header_bottom ul li:hover .supmenu-three {
+    display: block;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* -------------------------------------------section 1 -------------------------------------------------*/
+.product-section{
+    background-color: rgb(147,0,1);
+    padding: 12px;
+}
+.product-section-img img{
+    width: 100%;
+}
+.product-section-items{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-section-item
+{
+    
+    width: 19.6666%;
+    padding: 30px 8px;
+    background-color: white;
+    border: 5px solid rgb(253,171,19);
+    border: 5px solid rgb(204,58,34);
+}
+.product-section-item img{
+    width: 100%;
+    transition: all  0.5s ease;
+}
+.product-item-text ul li{
+    list-style: none;
+}
+.product-item-text  li{
+   line-height: 30px;
+   font-size: 15px;
+}
+.product-item-text  li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+.product-section-item :hover img {
+    transform: translateY(-10px);
+}
+
+.product-section-item:hover .product-item-text li:first-child a{
+    color: rgb(47,146,221);
+}
+.product-item-text  li:last-child{
+    color: rgb(232, 178, 78);
+    margin-top: 8px;
+}
+.product-item-text  li:nth-child(2)
+{
+    font-weight: bold;
+}
+.product-item-text  li:nth-child(4) i{
+    color: rgb(255, 190, 70);
+}
+.product-section-bottom{
+    margin: 0 auto;
+    width: 30%;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.product-section-bottom p{
+    text-align: center;
+    color: 20px;
+}
+/* ----------------------------------fixed------------------------------ */
+.fixed {
+    width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 15%;
+    flex-wrap: wrap;
+}
+
+.fixed a img {
+    width: 100%;
+    height: 100%;
+    padding: 5px 0;
+    border-radius: 15px;
+    text-align: center;
+}
