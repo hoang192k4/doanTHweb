@@ -11,7 +11,9 @@
     background-color: rgb(231, 232, 233);
     text-align: center;
 }
-
+.headertop a img{
+    width:80%;
+}
 li {
     list-style: none;
 }
